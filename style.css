@@ -1,0 +1,620 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+/*============ HEADER ============*/
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url(images/sky.jpg);
+    background-repeat: repeat-x;       
+}
+
+#header img{
+    height: 70%;
+    display: block;
+    margin: auto;
+     padding-top: 15px;
+}
+/*============ GREETINGS ============*/
+
+#greetings img{
+    width: auto;
+    display: block;
+    margin: auto;
+   
+}
+
+/*============ TOP-TABS ============*/
+
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color:deepskyblue;
+}
+
+#tabs-top a{
+    float: left;.
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+
+top-tab img {
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+/*============ MAIN-HOME ============*/
+
+#main-home{
+
+    background:url(images/pine%20cm%201.jpeg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*============ BOTTOM TABS ============*/
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    background-color: deepskyblue;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 18px;
+}
+    
+/*================= MAIN ===================*/    
+    
+#main{
+    background: url(images/pine%20cm%201.jpeg.jpg);
+    margin-top: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+     
+#content{
+    padding-top: 1px;
+    padding-bottom: 100px;       
+}
+
+#shop-logo img{
+    width: 10%;
+    margin-left: 45%;
+}
+#shop-logo h2{
+    text-align: center;
+    margin-top: -15px;
+}
+
+/*================= MAIN-MOVIE  ===================*/ 
+
+#main-movie{
+    background: url(images/movie%20page%20bg2.jpeg.jpg);
+    margin-top: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        
+#main-movie2{
+    background: url(images/movie%20page%20bg.jpeg.jpg);
+    margin-top: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+/*================= CONTAINER1 ===================*/
+.container1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  url(images/pine%20cm%201.jpeg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*================= CONTAINER ===================*/
+
+.container{
+    max-width: none;
+    margin: auto;
+    display: flex;
+}
+.container img{
+    margin-left: 10px;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 100px;       
+}
+#movie-logo img{
+    width: 18%;
+    margin-left: 45%;
+    margin-top: 18px;
+}
+/*================= INFO BOX ===================*/
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(0,0,0,0.4);
+    width: 90%;
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;   
+}
+
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+
+.info-box h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90;
+    color:  white;
+}
+.info-box h6{
+    padding: 0;
+    margin-bottom: 1%;
+    width: 90;
+    color: white;
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+    font-size: 25px;
+}
+
+.info-box p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: black;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+.info-box i {
+   float: right;
+    color: #fff;
+    padding-right: 10px;
+    font-size: 55px;
+    margin-top: 30px;
+    
+}
+
+/*================= INFO BOX full ===================*/
+
+#info-box-full{
+    background-color: rgba(255, 255, 255, .4);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+}
+
+#info-box-full h3{
+    text-align: center;
+}
+
+
+#info-box-full h2{
+    color: blue;
+    font-size: 15px;
+}
+
+/*================= ABOUT ===================*/
+
+img.info-box-about-icon{
+    height: 30px;
+    width: 30px !important;
+    margin: 10px;
+    float: left;
+}
+
+h1.info-box-about-icon{
+    font-size: 65px;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    border-top: 1px solid #131313;
+}
+
+
+.icon{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Helvetica,sans-serif;
+}
+h2{
+    color: dodgerblue;
+    font-family: Helvetica,sans-serif;
+}
+h4{
+    color: white;
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+}
+p1{
+    color: white;
+    font-family: Helvetica,sans-serif;
+    font-size: 14px;
+}
+p2{ color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Helvetica,sans-serif;
+}
+h3{
+    color: deepskyblue;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: Helvetica,sans-serif;
+    text-align: center;
+}
+h5{
+    color: deepskyblue;
+    font-weight: 800;
+    font-size: 52px;
+    font-family: Helvetica,sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+h6{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+p3{ color: blue;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Helvetica,sans-serif;
+}
+p4{
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: Helvetica,sans-serif;
+}
+
+icon{
+   color: #23E3C9;
+    font-weight: 800;
+    font-family: Helvetica,sans-serif;
+}
+
+/*================= FORM ===================*/
+form{
+    background: url(images/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    hyphens: 65px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color: dodgerblue;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+.icon{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Helvetica,sans-serif;
+}
+
+.button:hover{
+    background-color: lawngreen;
+    cursor: pointer;
+     color: white;
+}
+
+#cell-phone{
+    width: 60%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+
+/*================= SLIDER ===================*/
+
+.slider{
+    width: 800px;
+    height: 350px;
+    border-radius:10px;
+    overflow: hidden;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    
+}
+
+.slides{
+    width: 500%;
+    height: 350px;
+    display: flex; 
+}
+.slides input {
+    display: none;
+    
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 800px;
+    height: 350px;
+} 
+/*css for manual Slide navigation*/
+
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center; 
+}
+.manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;     
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: #40D3DC; 
+}
+
+#radio1:checked~.first{
+    margin-left: 0;
+}
+
+#radio2:checked~.first{
+    margin-left: -20%;
+}
+
+#radio3:checked~.first{
+    margin-left: -40%;
+}
+#radio4:checked~.first{
+    margin-left: -60%;
+}
+
+#radio5:checked~.first{
+    margin-left: -80%;
+}
+
+/*css for automatic  navigation*/
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 330px;
+    
+}
+
+.navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~.navigation-auto .auto-btn1{
+    background: #40D3DC;
+    
+}
+#radio2:checked ~.navigation-auto .auto-btn2{
+    background: #40D3DC;
+    
+}
+#radio3:checked ~.navigation-auto .auto-btn3{
+    background: #40D3DC;
+    
+}
+#radio4:checked ~.navigation-auto .auto-btn4{
+    background: #40D3DC;
+    
+}#radio5:checked ~.navigation-auto .auto-btn5{
+    background: #40D3DC;
+    
+}
+
+/*================= wrapper ===================*/
+
+.wrapper{
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    transform: translate(-23%,-40%);
+    background: rgba(0,0,0,0.6);
+    max-width: 550px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper.input{
+    width: 85%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.searchbtn{
+    background: #23E3C9;
+    width: 10%;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.searchbtn .fas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color: black;
+}
+
+img{
+    vertical-align: middle;
+}
+span{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+.movies-details-info a{
+    text-decoration: none!important;
+    border-radius: 30px;
+    padding: 7px 10px;
+    margin-top: 35px;
+    color: #fff ! important;
+    background: #107afd;
+    display: inline-block;
+    margin-right: 10px;
+    
+    
+    
+}
+.play-trailer-btn{
+    border: 1px solid #fff !important;
+    background: transparent !important;
+}
+
+.row-image{
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.row-image:hover{
+    transform: scale(1.08);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
